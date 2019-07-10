@@ -1,0 +1,15 @@
+{
+  "name": "ol-rollup",
+  "version": "1.0.0",
+  "description": "Example using WKTParse with Rollup",
+  "scripts": {
+    "start": "rollup --config rollup.config.js --watch",
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "rollup": "^0.61.2",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-terser": "^1.0.1"
+  }
+}
